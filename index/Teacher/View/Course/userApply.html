@@ -1,0 +1,31 @@
+
+<include file="./header" title="{$title}" />
+<div data-role="page">
+  <div data-role="header">
+  <a href="/index.php/Teacher/index/index" class="ui-btn ui-icon-home ui-btn-icon-left">中心</a>
+    <h1>申请处理</h1><a href="#" data-role="button" data-rel="back">返回</a>
+  </div>
+ <div data-role="content">
+
+
+<div class="ui-corner-all custom-corners">
+  <div class="ui-bar ui-bar-a">
+    <h3>题目：{$t_title}</h3>
+  </div>
+  <div class="ui-body ui-body-a">
+    <p>内容：{$content}<br/>
+申请人:{$user}</p>
+  </div>
+</div>
+
+
+<if condition="$isConfirm eq 0">	
+<a href="/index.php/Teacher/Course/confirmIt/userid/{$s_user_id}/courseid/{$course_id}" class="ui-btn ui-btn-inline ui-icon-plus ui-btn-icon-right" data-ajax="false">{$confirmIt}</a> 
+<else/><a href="/index.php/Teacher/Course/cancelApply/userid/{$s_user_id}/courseid/{$.course_id}"  class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-right" data-ajax="false">{$cancelIt}</a> 
+</if>
+ </div>
+  <div data-role="footer">
+  <h1>课程设计选课系统</h1>
+  </div>
+</div> 
+<include file="./footer" />

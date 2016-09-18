@@ -1,0 +1,26 @@
+
+<include file="./header" title="{$title}" />
+<div data-role="page">
+  <div data-role="header">
+  <a href="/index.php/Admin/index/index" class="ui-btn ui-icon-home ui-btn-icon-left">中心</a>
+    <h1>修改用户</h1><a href="#" data-role="button" data-rel="back">返回</a>
+  </div> 
+  <div data-role="content">
+<FORM method="post" action="__URL__/update" data-ajax="false">
+姓名:<INPUT type="text" name="username" id = "username" placeholder="姓名..." value = "{$username}"">
+学号/工号:<INPUT type="text" name="usernumber" id = "usernumber" placeholder="学号/工号..." value = "{$usernumber}">
+新密码:<INPUT type="text" name="password" id = "password" value = "" placeholder="不输入则不修改">
+是否教师:
+<INPUT type="hidden" name="id" value="{$id}">
+<select name = "is_teacher">
+  <option value="1">否</option>
+  <option value="2">是</option>
+</select>
+<INPUT type="submit" value="提交">
+</FORM><a href="/index.php/Admin/User/deleteIt/id/{$id}" data-ajax="false" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-right">删除</a>
+</div>
+  <div data-role="footer">
+  <h1>课程设计选课系统-后台</h1>
+  </div>
+</div> 
+<include file="./footer" />

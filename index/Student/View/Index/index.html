@@ -1,0 +1,37 @@
+<include file="./header" title="{$title}" />
+<div data-role="page">
+  <div data-role="header"><h1>你好，{$username}同学！</h1> 
+ <div data-role="navbar">
+ <ul>
+ <li><a href="/index.php/Student/index/allCourse" data-icon = "grid">全部课题</a></li>
+ <li><a href="/index.php/Student/index/userList" data-icon = "user" data-ajax="false">老师分类</a></li>
+ <li><a href="/index.php/Student/index/loginOut" data-icon = "back" data-ajax="false">退出系统</a></li>
+ </ul>
+ </div></div>
+ <div data-role="content">
+
+
+<form method="post" action="__URL__/search">
+ <input type="search" name="val" id="search" >
+ <INPUT type="submit" data-inline="true" value="搜索课题">
+</form>
+
+
+<ul data-role="listview" data-inset="true">
+ <li data-role="list-divider">未被确认的课程设计申请<span class="ui-li-count">共{$count1}条</span></li>
+<volist name="NoConfirm" id="vo" empty='目前没有数据！'>
+<li  data-icon="user">
+<a href="/index.php/Student/Course/index/id/{$vo.course_id}">{$vo.course_title}</a> <a href="/index.php/Student/index/UserCourse/id/{$vo.user_id}">{$vo.user_name}</a>
+</li>
+</volist>
+ <li data-role="list-divider">已被确认的课程设计申请<span class="ui-li-count">共{$count2}条</span></li>
+<volist name="IsConfirm" id="vo"  empty='目前没有数据！'>
+<li  data-icon="user"> <a href="/index.php/Student/Course/index/id/{$vo.course_id}">{$vo.course_title}</a> <a href="/index.php/Student/index/UserCourse/id/{$vo.user_id}">{$vo.user_name}</a></li>
+</volist>
+ </ul>
+</div>
+
+  <div data-role="footer">
+  <h1>课程设计选课系统</h1>
+  </div>
+<include file="./footer" />

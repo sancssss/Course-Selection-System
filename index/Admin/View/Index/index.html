@@ -1,0 +1,33 @@
+<include file="./header" title="{$title}" />
+<div data-role="page">
+  <div data-role="header"><h1>你好，超级管理员</h1> 
+ <div data-role="navbar">
+ <ul>
+ <li><a href="/index.php/Admin/User/userList/isConfrim/1" data-icon = "info">用户申请</a></li>
+ <li><a href="/index.php/Admin/User/userList/isConfrim/0" data-icon = "user" data-ajax="false">用户管理</a></li>
+ <li><a href="/index.php/Admin/Course/courseList" data-icon = "grid" data-ajax="false">课程管理</a></li>
+ <li><a href="/index.php/Admin/index/loginOut" data-icon = "back" data-ajax="false">退出系统</a></li>
+ </ul>
+ </div></div>
+ <div data-role="content">
+
+<ul data-role="listview" data-inset="true">
+ <li data-role="list-divider">待处理的教师申请<span class="ui-li-count">共{$count1}条</span></li>
+<volist name="resultUser" id="vo" empty='目前没有数据！'>
+<li  data-icon="plus"> <a href="/index.php/Admin/User/index/id/{$vo.user_id}">{$vo.user_name}</a><a href="/index.php/Admin/User/addTeacher/id/{$vo.user_id}">确认</a>
+</li>
+</volist>
+ <li data-role="list-divider">最新添加课程<span class="ui-li-count">共{$count2}条</span></li>
+<volist name="resutlCourse" id="vo"  offset="0" length='8' empty='目前没有数据！'>
+<li > <a href="/index.php/Admin/Course/index/id/{$vo.course_id}">{$vo.course_title}</a> <p class="ui-li-aside">{$vo.user_name}</p></li>
+</volist>
+ <li>
+<a href="/index.php/Admin/User/userList/isConfrim/0">查看全部课程</a>
+</li>
+ </ul>
+</div>
+
+  <div data-role="footer">
+  <h1>课程设计选课系统-后台</h1>
+  </div>
+<include file="./footer" />

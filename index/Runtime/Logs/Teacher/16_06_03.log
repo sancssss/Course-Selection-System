@@ -1,0 +1,2754 @@
+[ 2016-06-03T15:48:57+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304122 [ RunTime:0.0006s ]
+SQL: SELECT course_title,course_id,sc_userid FROM sc_course,sc_course_user,sc_user WHERE sc_course.course_id = sc_course_user.sc_courseid AND sc_isconfirm = 0 AND course_teacherid = user_id AND user_number = 141304122 [ RunTime:0.0005s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304122 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: user_name D:\PHP\www\index\Runtime\Cache\Teacher\20e7069c3cabd3a7b2e82974df9f86a9.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001401s ]
+
+[ 2016-06-03T15:50:23+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT course_title,course_id,sc_userid FROM sc_course,sc_course_user,sc_user WHERE sc_course.course_id = sc_course_user.sc_courseid AND sc_isconfirm = 0 AND course_teacherid = user_id AND user_number = 141304121 [ RunTime:0.0006s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined index: user_name D:\PHP\www\index\Runtime\Cache\Teacher\20e7069c3cabd3a7b2e82974df9f86a9.php 第 33 行.
+NOTIC: [8] Undefined index: user_name D:\PHP\www\index\Runtime\Cache\Teacher\20e7069c3cabd3a7b2e82974df9f86a9.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-06-03T15:51:36+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304123 [ RunTime:0.0005s ]
+SQL: SELECT course_title,course_id,sc_userid FROM sc_course,sc_course_user,sc_user WHERE sc_course.course_id = sc_course_user.sc_courseid AND sc_isconfirm = 0 AND course_teacherid = user_id AND user_number = 141304123 [ RunTime:0.0005s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304123 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-06-03T15:51:41+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304123 [ RunTime:0.0008s ]
+SQL: SELECT course_title,course_id,sc_userid FROM sc_course,sc_course_user,sc_user WHERE sc_course.course_id = sc_course_user.sc_courseid AND sc_isconfirm = 0 AND course_teacherid = user_id AND user_number = 141304123 [ RunTime:0.0008s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304123 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-06-03T16:03:49+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+
+[ 2016-06-03T16:03:49+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+
+[ 2016-06-03T16:04:03+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0007s ]
+SQL: SELECT course_title,course_id,sc_userid FROM sc_course,sc_course_user,sc_user WHERE sc_course.course_id = sc_course_user.sc_courseid AND sc_isconfirm = 0 AND course_teacherid = user_id AND user_number = 141304121 [ RunTime:0.0009s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: user_name D:\PHP\www\index\Runtime\Cache\Teacher\20e7069c3cabd3a7b2e82974df9f86a9.php 第 33 行.
+NOTIC: [8] Undefined index: user_name D:\PHP\www\index\Runtime\Cache\Teacher\20e7069c3cabd3a7b2e82974df9f86a9.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001640s ]
+
+[ 2016-06-03T16:04:25+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304123 [ RunTime:0.0005s ]
+SQL: SELECT course_title,course_id,sc_userid FROM sc_course,sc_course_user,sc_user WHERE sc_course.course_id = sc_course_user.sc_courseid AND sc_isconfirm = 0 AND course_teacherid = user_id AND user_number = 141304123 [ RunTime:0.0005s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304123 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2016-06-03T16:04:26+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304123 [ RunTime:0.0005s ]
+SQL: SELECT course_title,course_id,sc_userid FROM sc_course,sc_course_user,sc_user WHERE sc_course.course_id = sc_course_user.sc_courseid AND sc_isconfirm = 0 AND course_teacherid = user_id AND user_number = 141304123 [ RunTime:0.0005s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304123 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-06-03T16:04:27+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304123 [ RunTime:0.0005s ]
+SQL: SELECT course_title,course_id,sc_userid FROM sc_course,sc_course_user,sc_user WHERE sc_course.course_id = sc_course_user.sc_courseid AND sc_isconfirm = 0 AND course_teacherid = user_id AND user_number = 141304123 [ RunTime:0.0005s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304123 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2016-06-03T16:05:09+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+
+[ 2016-06-03T16:05:13+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-06-03T16:05:17+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+
+[ 2016-06-03T16:05:21+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-06-03T16:05:25+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-06-03T16:05:29+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-06-03T16:05:34+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-06-03T16:05:38+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-06-03T16:06:09+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0006s ]
+SQL: SELECT course_title,course_id,sc_userid FROM sc_course,sc_course_user,sc_user WHERE sc_course.course_id = sc_course_user.sc_courseid AND sc_isconfirm = 0 AND course_teacherid = user_id AND user_number = 141304121 [ RunTime:0.0006s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: user_name D:\PHP\www\index\Runtime\Cache\Teacher\20e7069c3cabd3a7b2e82974df9f86a9.php 第 33 行.
+NOTIC: [8] Undefined index: user_name D:\PHP\www\index\Runtime\Cache\Teacher\20e7069c3cabd3a7b2e82974df9f86a9.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-06-03T16:06:09+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT course_title,course_id,sc_userid FROM sc_course,sc_course_user,sc_user WHERE sc_course.course_id = sc_course_user.sc_courseid AND sc_isconfirm = 0 AND course_teacherid = user_id AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: user_name D:\PHP\www\index\Runtime\Cache\Teacher\20e7069c3cabd3a7b2e82974df9f86a9.php 第 33 行.
+NOTIC: [8] Undefined index: user_name D:\PHP\www\index\Runtime\Cache\Teacher\20e7069c3cabd3a7b2e82974df9f86a9.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2016-06-03T17:17:40+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0012s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-06-03T17:18:54+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0006s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0012s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-06-03T17:19:06+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0006s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0011s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-06-03T17:19:23+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0010s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-06-03T17:23:04+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0006s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0011s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-06-03T17:51:03+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0011s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-06-03T17:51:03+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0010s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-06-03T17:52:26+08:00 ] 127.0.0.1 /index.php/Teacher/Course/allCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+ERR: 无法加载控制器:Course
+
+[ 2016-06-03T18:15:08+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+
+[ 2016-06-03T18:15:19+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+ERR: 无法加载控制器:Course
+
+[ 2016-06-03T18:15:42+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 26 行.
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 27 行.
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-06-03T18:17:08+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-06-03T19:39:52+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-06-03T19:39:58+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-06-03T19:39:59+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-06-03T19:40:21+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: Think\Controller:getError方法不存在！
+
+[ 2016-06-03T19:41:03+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-06-03T19:41:14+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-06-03T19:41:15+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2016-06-03T19:41:16+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-06-03T19:41:19+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-06-03T19:43:08+08:00 ] 127.0.0.1 /index.php/Teacher/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0011s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0019s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-06-03T19:43:12+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-06-03T19:43:16+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 3 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-06-03T19:43:21+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-06-03T19:44:36+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-06-03T19:44:41+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-06-03T19:44:45+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-06-03T19:45:08+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-06-03T19:45:13+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-06-03T19:45:17+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-06-03T19:45:21+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-06-03T19:45:24+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-06-03T19:45:28+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-06-03T19:46:19+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 3 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-06-03T19:46:29+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 3 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2016-06-03T19:46:31+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 3 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-06-03T19:46:37+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-06-03T19:46:51+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2016-06-03T19:46:54+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2016-06-03T19:47:48+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 28 行.
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-06-03T19:48:36+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-06-03T19:48:42+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-06-03T19:48:44+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-06-03T19:48:51+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-06-03T19:49:12+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-06-03T19:49:15+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-06-03T19:51:41+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-06-03T19:51:51+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-06-03T19:52:42+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-06-03T19:52:44+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-06-03T19:53:14+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `sc_course` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: validate D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-06-03T20:00:08+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003321s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'course_id = 4' at line 1
+ [ SQL语句 ] : UPDATE sc_course SET course_title = 计算方法,course_content = 这是计算方法的内容修改 WHERE course_teacherid=1AND course_id = 4;
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'course_id = 4' at line 1
+ [ SQL语句 ] : UPDATE sc_course SET course_title = 计算方法,course_content = 这是计算方法的内容修改 WHERE course_teacherid=1AND course_id = 4;
+
+[ 2016-06-03T20:01:07+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''这是计算方法的内容修改'' WHERE course_teacherid=1 AND course_id = 4' at line 1
+ [ SQL语句 ] : UPDATE sc_course SET course_title = '计算方法',course_content = '这是计算方法的内容修改'' WHERE course_teacherid=1 AND course_id = 4;
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''这是计算方法的内容修改'' WHERE course_teacherid=1 AND course_id = 4' at line 1
+ [ SQL语句 ] : UPDATE sc_course SET course_title = '计算方法',course_content = '这是计算方法的内容修改'' WHERE course_teacherid=1 AND course_id = 4;
+
+[ 2016-06-03T20:01:45+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: UPDATE sc_course SET course_title = '计算方法',course_content = '这是计算方法的内容修改' WHERE course_teacherid=1 AND course_id = 4; [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2016-06-03T20:01:46+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2016-06-03T20:18:34+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: UPDATE sc_course SET course_title = '计算方法',course_content = '这是计算方法的内容修改' WHERE course_teacherid=1 AND course_id = 4; [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-06-03T20:18:35+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-06-03T20:29:36+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: UPDATE sc_course SET course_title = '计算方法',course_content = '这是计算方法的内容修改' WHERE course_teacherid=1 AND course_id = 4; [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-06-03T20:29:37+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-06-03T20:43:00+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2016-06-03T20:43:05+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: UPDATE sc_course SET course_title = '计算方法',course_content = '这是计算方法的内容修改' WHERE course_teacherid=1 AND course_id = 4; [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-06-03T20:43:08+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-06-03T20:43:10+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-06-03T20:43:21+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0006s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0015s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2016-06-03T20:44:48+08:00 ] 127.0.0.1 /index.php/Teacher/Course/addCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET course_content=,SET course_teacherid=1' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course SET course_title=,SET course_content=,SET course_teacherid=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET course_content=,SET course_teacherid=1' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course SET course_title=,SET course_content=,SET course_teacherid=1
+
+[ 2016-06-03T20:48:19+08:00 ] 127.0.0.1 /index.php/Teacher/Course/addCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+
+[ 2016-06-03T20:48:29+08:00 ] 127.0.0.1 /index.php/Teacher/Course/addCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2016-06-03T20:48:34+08:00 ] 127.0.0.1 /index.php/Teacher/Course/addCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2016-06-03T20:49:03+08:00 ] 127.0.0.1 /index.php/Teacher/Course/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET course_content=这是计算机网络可的课程设计的要求,SET course_t' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course SET course_title=计算机网络,SET course_content=这是计算机网络可的课程设计的要求,SET course_teacherid=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET course_content=这是计算机网络可的课程设计的要求,SET course_t' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course SET course_title=计算机网络,SET course_content=这是计算机网络可的课程设计的要求,SET course_teacherid=1
+
+[ 2016-06-03T20:49:57+08:00 ] 127.0.0.1 /index.php/Teacher/Course/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET course_content = '这是计算机网络可的课程设计的要求',SET cour' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course SET course_title = '计算机网络',SET course_content = '这是计算机网络可的课程设计的要求',SET course_teacherid=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET course_content = '这是计算机网络可的课程设计的要求',SET cour' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course SET course_title = '计算机网络',SET course_content = '这是计算机网络可的课程设计的要求',SET course_teacherid=1
+
+[ 2016-06-03T20:50:18+08:00 ] 127.0.0.1 /index.php/Teacher/Course/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET course_content = '这是计算机网络可的课程设计的要求'WHERE cou' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course SET course_title = '计算机网络',SET course_content = '这是计算机网络可的课程设计的要求'WHERE course_teacherid=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET course_content = '这是计算机网络可的课程设计的要求'WHERE cou' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course SET course_title = '计算机网络',SET course_content = '这是计算机网络可的课程设计的要求'WHERE course_teacherid=1
+
+[ 2016-06-03T20:50:27+08:00 ] 127.0.0.1 /index.php/Teacher/Course/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET course_content = '这是计算机网络可的课程设计的要求' WHERE co' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course SET course_title = '计算机网络',SET course_content = '这是计算机网络可的课程设计的要求' WHERE course_teacherid=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET course_content = '这是计算机网络可的课程设计的要求' WHERE co' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course SET course_title = '计算机网络',SET course_content = '这是计算机网络可的课程设计的要求' WHERE course_teacherid=1
+
+[ 2016-06-03T21:09:41+08:00 ] 127.0.0.1 /index.php/Teacher/Course/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1,'')' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course VALUES(NULL,'计算机网络','这是计算机网络可的课程设计的要求','1,'')
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1,'')' at line 1
+ [ SQL语句 ] : INSERT INTO sc_course VALUES(NULL,'计算机网络','这是计算机网络可的课程设计的要求','1,'')
+
+[ 2016-06-03T21:10:15+08:00 ] 127.0.0.1 /index.php/Teacher/Course/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: INSERT INTO sc_course VALUES(NULL,'计算机网络','这是计算机网络可的课程设计的要求','1','') [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2016-06-03T21:10:16+08:00 ] 127.0.0.1 /index.php/Teacher/Course/allCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+ERR: 非法操作:allCourse
+
+[ 2016-06-03T21:10:16+08:00 ] 127.0.0.1 /index.php/Teacher/Course/allCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+ERR: 非法操作:allCourse
+
+[ 2016-06-03T21:10:37+08:00 ] 127.0.0.1 /index.php/Teacher
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0007s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0016s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002099s ]
+
+[ 2016-06-03T21:10:46+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2016-06-03T21:19:12+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-06-03T21:19:19+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2016-06-03T21:19:22+08:00 ] 127.0.0.1 /index.php/Teacher
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0007s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0012s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-06-03T21:19:25+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 7 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-06-03T21:19:28+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 6 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-06-03T21:19:29+08:00 ] 127.0.0.1 /index.php/Teacher/Course/deleteIt/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-06-03T21:19:59+08:00 ] 127.0.0.1 /index.php/Teacher/Course/deleteIt/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: DELETE FROM sc_course WHERE course_id=6 AND course_teacherid = 1 [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2016-06-03T21:20:00+08:00 ] 127.0.0.1 /index.php/Teacher/Course/allCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+ERR: 非法操作:allCourse
+
+[ 2016-06-03T21:20:00+08:00 ] 127.0.0.1 /index.php/Teacher/Course/allCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+ERR: 非法操作:allCourse
+
+[ 2016-06-03T21:20:06+08:00 ] 127.0.0.1 /index.php/Teacher/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0011s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2016-06-03T21:20:45+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 3 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: vo D:\PHP\www\index\Runtime\Cache\Teacher\c2aa1fe157dc9a45864f68376721de81.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2016-06-03T21:21:26+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2016-06-03T21:21:33+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2016-06-03T21:21:37+08:00 ] 127.0.0.1 /index.php/Teacher/Course/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: UPDATE sc_course SET course_title = '数据库',course_content = '这是数据库的内容' WHERE course_teacherid=1 AND course_id = 1; [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2016-06-03T21:21:38+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-06-03T21:21:38+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-06-03T21:21:44+08:00 ] 127.0.0.1 /index.php/Teacher/Course/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SELECT * FROM sc_course WHERE course_teacherid = 1 AND course_id = 1 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2016-06-03T21:36:39+08:00 ] 127.0.0.1 /index.php/Teacher/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0007s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE user_id =1 [ RunTime:0.0011s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2016-06-03T21:36:46+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userApply/userid/4/courseid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2016-06-03T21:36:53+08:00 ] 127.0.0.1 /index.php/Teacher/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0006s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0015s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2016-06-03T21:36:56+08:00 ] 127.0.0.1 /index.php/Teacher/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0008s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0010s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-06-03T21:37:47+08:00 ] 127.0.0.1 /index.php/Teacher/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0007s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 1 AND user_id =1 [ RunTime:0.0021s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001826s ]
+
+[ 2016-06-03T21:37:56+08:00 ] 127.0.0.1 /index.php/Teacher/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0007s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0012s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-06-03T21:37:57+08:00 ] 127.0.0.1 /index.php/Teacher/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0012s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-06-03T21:38:46+08:00 ] 127.0.0.1 /index.php/Teacher/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0010s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-06-03T23:38:35+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0017s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 1 AND user_id =1 [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: resultIsCourse D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: title D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: myCourse D:\PHP\www\index\Runtime\Cache\Teacher\d1fcaa34f5e412a3f6a156f130dfb95b.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2016-06-03T23:38:40+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userApply/userid/4/courseid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2016-06-03T23:39:54+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0013s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 1 AND user_id =1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: resultIsCourse D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: title D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: myCourse D:\PHP\www\index\Runtime\Cache\Teacher\d1fcaa34f5e412a3f6a156f130dfb95b.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2016-06-03T23:39:55+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0015s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 1 AND user_id =1 [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: resultIsCourse D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: title D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: myCourse D:\PHP\www\index\Runtime\Cache\Teacher\d1fcaa34f5e412a3f6a156f130dfb95b.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-06-03T23:39:58+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0018s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 1 AND user_id =1 [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: resultIsCourse D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: title D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: myCourse D:\PHP\www\index\Runtime\Cache\Teacher\d1fcaa34f5e412a3f6a156f130dfb95b.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-06-03T23:40:52+08:00 ] 127.0.0.1 /index.php/Teacher/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0006s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0011s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-06-03T23:41:46+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0006s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0012s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2016-06-03T23:41:46+08:00 ] 127.0.0.1 /index.php/Teacher/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SELECT course_id,course_title FROM sc_user,sc_course WHERE sc_user.user_id = sc_course.course_teacherid AND user_number = 141304121 [ RunTime:0.0005s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0011s ]
+SQL: SELECT user_name FROM sc_user WHERE user_number = 141304121 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2016-06-03T23:41:51+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userApply/userid/3/courseid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-06-03T23:42:08+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0012s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 1 AND user_id =1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: resultIsCourse D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: title D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: myCourse D:\PHP\www\index\Runtime\Cache\Teacher\d1fcaa34f5e412a3f6a156f130dfb95b.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2016-06-03T23:58:53+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0019s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 1 AND user_id =1 [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: resultIsCourse D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: title D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined variable: myCourse D:\PHP\www\index\Runtime\Cache\Teacher\d1fcaa34f5e412a3f6a156f130dfb95b.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2016-06-03T23:59:10+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0016s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 1 AND user_id =1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: resultIsCourse D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: title D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2016-06-03T23:59:12+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0015s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 1 AND user_id =1 [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: resultIsCourse D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: title D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-06-03T23:59:57+08:00 ] 127.0.0.1 /index.php/Teacher/Course/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 0 AND user_id =1 [ RunTime:0.0012s ]
+SQL: SELECT s_user_id,course_id,user_name,course_title FROM `sc_view_no_confirm_1` WHERE sc_isconfirm = 1 AND user_id =1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: title D:\PHP\www\index\Teacher\Controller\CourseController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined variable: user_name D:\PHP\www\index\Runtime\Cache\Teacher\d1fcaa34f5e412a3f6a156f130dfb95b.php 第 28 行.
+NOTIC: [8] Undefined variable: user_name D:\PHP\www\index\Runtime\Cache\Teacher\d1fcaa34f5e412a3f6a156f130dfb95b.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+

@@ -1,0 +1,37 @@
+<include file="./header" title="{$title}" />
+
+
+<div data-role="page">
+  <div data-role="header">
+   <a href="/index.php/Admin/index/index" class="ui-btn ui-icon-home ui-btn-icon-left">中心</a>
+      <h1>{$title}</h1><a href="#" data-role="button" data-rel="back">返回</a>
+  </div>
+
+ <div data-role="content">
+ <ul data-role="listview" data-inset="true">
+ <li data-role="list-divider">用户列表<span class="ui-li-count">共{$count}条</span></li>
+<volist name="result" id="vo" empty='目前没有数据！'>
+<if condition = "($vo.user_identityid eq 1)">
+<li>
+<a href="/index.php/Admin/User/index/id/{$vo.user_id}">{$vo.user_name}</a><p class="ui-li-aside">学生</p>
+</li>
+<elseif condition = "($vo.user_identityid eq 2)"/>
+<li>
+<a href="/index.php/Admin/User/index/id/{$vo.user_id}">{$vo.user_name}</a><p class="ui-li-aside">老师</p>
+</li>
+<else/>
+<li data-icon="plus">
+<a href="/index.php/Admin/User/index/id/{$vo.user_id}">{$vo.user_name}</a><a href="/index.php/Admin/User/addTeacher/id/{$vo.user_id}" data-ajax="false">确认</a>
+</li>
+</if>
+
+</volist>
+ </ul>
+  </div>
+
+  <div data-role="footer">
+  <h1>课程设计选课系统-后台</h1>
+  </div>
+</div> 
+
+<include file="./footer" />

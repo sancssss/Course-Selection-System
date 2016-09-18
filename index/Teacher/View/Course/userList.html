@@ -1,0 +1,32 @@
+
+
+
+<include file="./header" title="{$title}" />
+<div data-role="page">
+  <div data-role="header">
+  <a href="/index.php/Teacher/index/index" class="ui-btn ui-icon-home ui-btn-icon-left">中心</a>
+    <h1>{$title}</h1><a href="#" data-role="button" data-rel="back">返回</a>
+  </div> 
+ <div data-role="content">
+
+
+<ul data-role="listview" data-inset="true">
+ <li data-role="list-divider">已批准的课题</li>
+<volist name="IsConfirm" id="vo" empty='目前没有数据！'>
+<li  data-icon="delete">
+<a href="/index.php/Teacher/Course/userApply/userid/{$vo.s_user_id}/courseid/{$vo.course_id}">{$vo.user_name}申请 《{$vo.course_title}》</a>
+<a href="/index.php/Teacher/Course/cancelApply/userid/{$vo.s_user_id}/courseid/{$vo.course_id}" data-ajax="false">取消 </a>
+</volist>
+</li>
+</volist>
+ <li data-role="list-divider">待处理的课题</li>
+<volist name="NoConfirm" id="vo" empty='目前没有数据！'>
+<li  data-icon="plus"> <a href="/index.php/Teacher/Course/userApply/userid/{$vo.s_user_id}/courseid/{$vo.course_id}">{$vo.user_name}申请 《{$vo.course_title}》</a><a href="/index.php/Teacher/Course/confirmIt/userid/{$vo.s_user_id}/courseid/{$vo.course_id}" data-ajax="false">确认</a></li>
+</volist>
+ </ul>
+</div>
+
+  <div data-role="footer">
+  <h1>课程设计选课系统</h1>
+  </div>
+<include file="./footer" />

@@ -1,0 +1,19 @@
+
+<include file="./header" title="{$title}" />
+<div data-role="page">
+  <div data-role="header">
+  <a href="/index.php/Teacher/index/index" class="ui-btn ui-icon-home ui-btn-icon-left">中心</a>
+    <h1>添加一个新的课题</h1><a href="#" data-role="button" data-rel="back">返回</a>
+  </div> 
+  <div data-role="content">
+<FORM method="post" action="__URL__/add" data-ajax="false">
+标题：<INPUT type="text" name="title" value=""><br/>
+内容：<TEXTAREA name="content" rows="5" cols="45"></TEXTAREA><br/>
+<INPUT type="submit" value="提交" data-inline="true">
+</FORM>
+</div>
+  <div data-role="footer">
+  <h1>课程设计选课系统</h1>
+  </div>
+</div> 
+<include file="./footer" />

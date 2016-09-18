@@ -1,0 +1,29 @@
+<include file="./header" title="{$title}" />
+<div data-role="page">
+  <div data-role="header">
+<if condition="$loginTag eq 1"><a href="/index.php/Student/index/index" class="ui-btn ui-icon-home ui-btn-icon-left">中心</a><a href="/index.php/Student/index/loginOut" data-icon = "back" data-ajax="false">退出</a>   <h1>课程设计选课系统</h1>
+<elseif condition="$loginTag eq 2"/><a href="/index.php/Teacher/index/index" class="ui-btn ui-icon-home ui-btn-icon-left">中心</a><a href="/index.php/Teacher/index/loginOut" data-icon = "back" data-ajax="false" >退出</a> <h1>课程设计选课系统</h1>
+<else /> <a href="index.php/Home/User/loginIndex">登录</a><a href="index.php/Home/User/index">注册</a>
+    <h1>{$is_Login}课程设计选课系统</h1>
+</if>
+  </div>
+
+ <div data-role="content">
+ <ul data-role="listview" data-inset="true">
+ <li data-role="list-divider">最新发布{$new_info}<span class="ui-li-count">共{$count}条</span></li>
+<volist name="resultArr" id="vo" offset="0" length='8'>
+ <li>
+<a href="index.php/Home/index/courseInfo/id/{$vo.course_id}">《{$vo.course_title}》</a><p class="ui-li-aside">{$vo.user_name}</p>
+</li>
+</volist>
+<if condition="$loginTag neq (1 or 2)">
+<li>登录查看更多！</li>
+</if>
+ </ul>
+  </div>
+
+  <div data-role="footer">
+  <h1>课程设计选课系统</h1>
+  </div>
+</div> 
+<include file="./footer" />

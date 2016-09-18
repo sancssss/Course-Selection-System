@@ -1,0 +1,26 @@
+<include file="./header" title="{$title}" />
+
+
+<div data-role="page">
+  <div data-role="header">
+   <a href="/index.php/Admin/index/index" class="ui-btn ui-icon-home ui-btn-icon-left">中心</a>
+      <h1>全部课程设计题目</h1><a href="#" data-role="button" data-rel="back">返回</a>
+  </div>
+
+ <div data-role="content">
+ <ul data-role="listview" data-inset="true">
+ <li data-role="list-divider">题目列表<span class="ui-li-count">共{$count}条</span></li>
+<volist name="allCourse" id="vo" empty='目前没有数据！'>
+ <li>
+<a href="/index.php/Admin/Course/index/id/{$vo.course_id}">{$vo.course_title}</a><p class="ui-li-aside">{$vo.user_name}</p>
+</li>
+</volist>
+ </ul>
+  </div>
+
+  <div data-role="footer">
+  <h1>课程设计选课系统</h1>
+  </div>
+</div> 
+
+<include file="./footer" />

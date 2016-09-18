@@ -1,0 +1,36 @@
+
+<include file="./header" title="{$title}" />
+<div data-role="page">
+  <div data-role="header"><h1>你好，{$username}</h1> 
+ <div data-role="navbar">
+ <ul>
+ <li><a href="/index.php/Teacher/Course/addCourse" data-icon = "plus">发布课题</a></li>
+ <li><a href="/index.php/Teacher/Course/userList" data-icon = "bars">申请列表</a></li>
+ <li><a href="/index.php/Teacher/Course/allCourse" data-icon = "grid">全部课题</a></li>
+ <li><a href="/index.php/Teacher/index/loginOut" data-icon = "back" data-ajax="false">退出登录</a></li>
+ </ul>
+ </div></div>
+ <div data-role="content">
+
+
+<ul data-role="listview" data-inset="true">
+ <li data-role="list-divider">我发布的课题 <span class="ui-li-count">共{$count1}条</span></li>
+<volist name="myCourse" id="vo"  offset="0" length='8' empty='目前没有数据！'>
+<li  data-icon="false">
+<a href="/index.php/Teacher/Course/index/id/{$vo.course_id}">{$vo.course_title}</a>
+</volist>
+</li>
+<li><a href="/index.php/Teacher/Course/allCourse" data-icon = "grid">全部课题</a></li>
+</volist>
+ <li data-role="list-divider">待处理的课题申请 <span class="ui-li-count">共{$count2}条</span></li>
+<volist name="NoConfirm" id="vo" offset="0" length='8' empty='目前没有数据！'>
+<li  data-icon="false"> <a href="/index.php/Teacher/Course/userApply/userid/{$vo.s_user_id}/courseid/{$vo.course_id}">{$vo.user_name}</a>  <p class="ui-li-aside">申请 《{$vo.course_title}》</p></li>
+</volist>
+<li><a href="/index.php/Teacher/Course/userList" data-icon = "bars">全部申请</a></li>
+ </ul>
+</div>
+
+  <div data-role="footer">
+  <h1>课程设计选课系统</h1>
+  </div>
+<include file="./footer" />

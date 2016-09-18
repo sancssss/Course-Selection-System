@@ -1,0 +1,23 @@
+[ 2016-09-18T09:01:20+08:00 ] 192.168.1.156 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SELECT course_id,course_title,user_name,course_create_time FROM sc_course,sc_user WHERE sc_course.course_teacherid = sc_user.user_id ORDER BY course_create_time DESC; [ RunTime:0.0126s ]
+SQL: SELECT count(*) FROM sc_course [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: is_Login D:\PHP\www\index\Runtime\Cache\Home\71acd017f8796d9a57923acc8eb6052d.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+

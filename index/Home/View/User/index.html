@@ -1,0 +1,27 @@
+<include file="./header" title="{$title}" />
+<div data-role="page">
+<div data-role="header">
+<h1>注册账号</h1>
+ </div> 
+ <div data-role="content">
+<FORM method="post" action="__URL__/register" data-ajax="false">
+<label for="name" class="ui-hidden-accessible">姓名</label>
+<label for="id" class="ui-hidden-accessible">ID</label>
+<label for="password" class="ui-hidden-accessible">姓名</label>
+<label for="repassword" class="ui-hidden-accessible">密码</label>
+姓名:<INPUT type="text" name="name" id = "name" placeholder="姓名...">
+学号/工号:<INPUT type="text" name="id" id = "id" placeholder="学号/工号...">
+密码:<INPUT type="text" name="password" id = "password" placeholder="密码...">
+确认密码:<INPUT type="text" name="repassword" id = "repassword" placeholder="确认密码...">
+是否教师:<select name = "is_teacher">
+  <option value="1">是</option>
+  <option value="0">否</option>
+</select>
+<INPUT type="submit" value="注册">
+</FORM>
+</div>
+  <div data-role="footer">
+  <h1>课程设计选课系统</h1>
+  </div>
+</div> 
+<include file="./footer" />

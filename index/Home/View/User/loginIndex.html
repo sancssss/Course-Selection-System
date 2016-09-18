@@ -1,0 +1,20 @@
+<include file="./header" title="{$title}" />
+<div data-role="page">
+  <div data-role="header">
+  <a href="/" class="ui-btn ui-icon-home ui-btn-icon-left">首页</a>
+    <h1>登录系统</h1><a href="#" data-role="button" data-rel="back">返回</a>
+  </div>
+  <div data-role="content">
+<FORM method="post" action="__URL__/login" data-ajax="false">
+  <div class="ui-field-contain">
+学号/工号:<INPUT type="text" pattern = "[0-9]*" name="id">
+密码:<INPUT type="password" name="password" Password: data-clear-btn="ture" >
+  </div>
+<INPUT type="submit" data-inline="true" value="登录">
+</FORM>
+</div>
+  <div data-role="footer">
+  <h1>课程设计选课系统</h1>
+  </div>
+</div> 
+<include file="./footer" />
